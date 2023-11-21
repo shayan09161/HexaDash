@@ -28,101 +28,97 @@ h6 {
 body {
   margin: 0%;
   padding: 0%;
+  background-color: #f7f8fb;
 }
+
 header {
   width: 100%;
   height: 72px;
-  background-color: white;
-  box-shadow: 1px 1px 1px rgb(0, 0, 0);
-  /* position: fixed; */
-  /* display: flex; */
+  background-color: #fff;
+  /* box-shadow: 1px 1px 1px #000000; */
+  position: fixed;
+  display: flex;
+  z-index: 2000;
+}
+
+#navbar-left {
+  display: flex;
+  align-items: center;
 }
 
 #logo-area {
-  display: flex;
-  /* flex-wrap: initial; */
-  align-items: center;
+  height: 100%;
+  width: 100%;
   padding-left: 30px;
-  background-color: aqua;
+  display: flex;
+  align-items: center;
 }
 
-/* #logo-area img:first-child {
-  width: 160px;
-  height: 36px;
-} */
+#logo-area a:first-child {
+  display: inline-block;
+  margin-right: 52px;
+}
 
-/* #logo-area a:first-child {
-  padding-right: 53px;
-} */
+#logo-area a:first-child img {
+  max-width: 160px;
+  min-width: 160px;
+}
 
 #logo-area a:nth-child(2) {
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  margin-right: 8px;
+  padding-top: 3px;
+  padding-right: 3px;
+  display: inline-block;
 }
-/* I cut the icon of the control panel to the right one mile up */
+
 #logo-area a:nth-child(2) img {
-  width: 30px;
-  height: 17px;
+  width: 19px;
 }
-/* I cut the icon of the control panel to the right one mile up */
-.navbar-left a:nth-child(2) img{
-  align-items: center;
-  margin: 7px 50px;
-}
-/* In this section, we put all the items in one line */
-.navbar-right {
-  display: flex;
-  align-items: center;
-}
-/* In this part, we cut the items from left to right */
-.navbar-right{
-  margin: auto;
-  margin-right: 25px;
-  margin-bottom: 4px;
-}
+
 /* Main Adjustment of The Sidebar */
 
 #sidebar {
   z-index: 1999;
   position: fixed;
-  width: 280px;
-  height: 200vh;
-}
-
-#scrollbar {
+  width: auto;
   overflow-y: auto;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.022);
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: -20px 2px 20px 0px black;
 }
 
 /* Hide scrollbar by default */
-#scrollbar::-webkit-scrollbar {
-  width: 0;
+#sidebar::-webkit-scrollbar {
+  width: 9px;
+  background-color: #fff;
 }
 
 /* Show scrollbar on hover */
-#sidebar:hover #scrollbar::-webkit-scrollbar {
-  width: 8px;
+#sidebar:hover::-webkit-scrollbar {
+  width: 9px;
 }
 
 /* Handle */
-#scrollbar::-webkit-scrollbar-thumb {
-  background-color: #e0e0e0;
+#sidebar::-webkit-scrollbar-thumb {
+  background-color: #c3c3c300;
   border-radius: 12px;
 }
 
+#sidebar:hover::-webkit-scrollbar-thumb {
+  background-color: #cfcfcf;
+}
+
 /* Handle on hover */
-#scrollbar::-webkit-scrollbar-thumb:hover {
+#sidebar::-webkit-scrollbar-thumb:hover {
   background-color: #9b9b9b;
 }
 
 /* Sidebar Wrapper */
 
 #sidebar-collapse {
-  margin-top: 87px;
-  height: 100vh;
+  padding-top: 87px;
   width: 280px;
-  background-color: #fff;
+  height: 100%;
 }
 
 /* Adjustment For The Sidebar Titles */
