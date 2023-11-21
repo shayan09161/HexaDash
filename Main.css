@@ -29,7 +29,58 @@ body {
   margin: 0%;
   padding: 0%;
 }
+header {
+  width: 100%;
+  height: 72px;
+  background-color: white;
+  box-shadow: 1px 1px 1px rgb(0, 0, 0);
+  /* position: fixed; */
+  /* display: flex; */
+}
 
+#logo-area {
+  display: flex;
+  /* flex-wrap: initial; */
+  align-items: center;
+  padding-left: 30px;
+  background-color: aqua;
+}
+
+/* #logo-area img:first-child {
+  width: 160px;
+  height: 36px;
+} */
+
+/* #logo-area a:first-child {
+  padding-right: 53px;
+} */
+
+#logo-area a:nth-child(2) {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+/* I cut the icon of the control panel to the right one mile up */
+#logo-area a:nth-child(2) img {
+  width: 30px;
+  height: 17px;
+}
+/* I cut the icon of the control panel to the right one mile up */
+.navbar-left a:nth-child(2) img{
+  align-items: center;
+  margin: 7px 50px;
+}
+/* In this section, we put all the items in one line */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+/* In this part, we cut the items from left to right */
+.navbar-right{
+  margin: auto;
+  margin-right: 25px;
+  margin-bottom: 4px;
+}
 /* Main Adjustment of The Sidebar */
 
 #sidebar {
