@@ -35,10 +35,10 @@ header {
   width: 100%;
   height: 72px;
   background-color: #fff;
-  /* box-shadow: 1px 1px 1px #000000; */
   position: fixed;
   display: flex;
   z-index: 2000;
+  justify-content: space-between;
 }
 
 #navbar-left {
@@ -73,6 +73,74 @@ header {
 
 #logo-area a:nth-child(2) img {
   width: 19px;
+}
+
+#customize {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 3px 16px;
+  background-color: #f4f5f7;
+  border-radius: 50rem;
+  margin-left: 22px;
+  justify-content: center;
+  text-align: center;
+}
+
+#customize span:first-child {
+  color: #404040;
+  font-size: calc(16.2px + 0.15vw);
+  margin-right: 8px;
+}
+
+#customize:hover {
+  background-color: #f200ff17;
+  transition: all 0.3s ease;
+}
+
+#customize:hover span {
+  color: #8231d3;
+  transition: all 0.3s ease;
+}
+
+#menu-area {
+  display: flex;
+  padding-right: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu-area li {
+  padding: 0px 12.5px;
+}
+
+#flag img {
+  width: 20px;
+  border-radius: 50%;
+}
+
+#user-image {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#user-image a {
+  display: inline-block;
+}
+
+#user-image img {
+  width: 33px;
+}
+
+#user-image span {
+  margin-left: 5px;
+  font-weight: 100;
+  color: #404040;
+  font-size: 14px;
 }
 
 /* Main Adjustment of The Sidebar */
@@ -195,7 +263,7 @@ header {
 
 /* These ULs Belong To eCommerce Seection */
 
-ul {
+#sidebar ul {
   margin: 0px;
   padding: 0%;
   padding: 1px 33px 10px 0;
