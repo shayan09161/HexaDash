@@ -113,7 +113,7 @@ header {
 }
 
 #menu-area li {
-  padding: 0px 12.5px;
+  padding: 6px 12.5px;
 }
 
 #flag img {
@@ -124,25 +124,31 @@ header {
 #user-image {
   display: flex;
   text-align: center;
-  align-items: center;
   justify-content: center;
-}
-
-#user-image a {
+ }
+ 
+ #user-image a {
   display: inline-block;
-}
-
-#user-image img {
+ }
+ 
+ #user-image img {
   width: 33px;
-}
-
-#user-image span {
-  margin-left: 5px;
+  transition: 0.3s;
+ }
+ 
+ 
+ #user-title span {
+  padding: 0px;
   font-weight: 100;
   color: #404040;
   font-size: 14px;
-}
+  transition: 0.3s;
+ }
 
+#menu-area li:nth-child(7) {
+  padding-right: 0px;
+}
+ 
 /* Main Adjustment of The Sidebar */
 
 #sidebar {
