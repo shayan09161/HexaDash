@@ -112,8 +112,36 @@ header {
   justify-content: center;
 }
 
+#Search-header {
+  font-size: 20px;
+}
+
+.uil.uil-search {
+  color: #747474;
+}
+
 #menu-area li {
   padding: 6px 12.5px;
+}
+
+#massege {
+  position: relative;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #01B81A;
+  top: 4px;
+  left: 16px;
+}
+
+#ball2 {
+  position: relative;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #FA8B0C;
+  top: 6px;
+  left: 11px;
 }
 
 #flag img {
@@ -125,29 +153,29 @@ header {
   display: flex;
   text-align: center;
   justify-content: center;
- }
- 
- #user-image a {
+}
+
+#user-image a {
   display: inline-block;
- }
- 
- #user-image img {
+}
+
+#user-image img {
   width: 33px;
   transition: 0.3s;
- }
- 
- 
- #user-title span {
+}
+
+#user-title span {
   padding: 0px;
   font-weight: 100;
   color: #404040;
   font-size: 14px;
   transition: 0.3s;
- }
+}
 
 #menu-area li:nth-child(7) {
   padding-right: 0px;
 }
+
  
 /* Main Adjustment of The Sidebar */
 
