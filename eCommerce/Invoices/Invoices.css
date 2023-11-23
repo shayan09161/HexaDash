@@ -382,3 +382,7 @@ header {
 .sidebar-menu:nth-child(7) ul li:first-child span {
   color: #8231d3 !important;
 }
+
+#main {
+  padding: 74px 15px 72px 310px;
+}
