@@ -1,0 +1,19 @@
+@media all and (max-width:1200px){
+ 
+.differ-form-group { 
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    }
+    .afterdollarsign input {
+        width:92%;
+    }
+    #sidebar {
+      display: none;
+    }
+}
+  
